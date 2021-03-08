@@ -15,5 +15,5 @@ function checker() {
 
 function reset() {
     document.getElementById("text").value = "";
-    console.log("hello")
+    document.getElementById("result").innerHTML = "";
 }
