@@ -6,6 +6,9 @@ function checker() {
     let currentDate = new Date();
     let differenceInTime = currentDate.getTime() - birthday.getTime();
     let differenceInDays = "Your age in days is: " + Math.floor(differenceInTime/(1000*3600*24));
+    if(isNaN(differenceInTime) === true){
+        differenceInDays = "Please enter a valid date in the format mm/dd/yyy";
+    }
     document.getElementById("result").innerHTML = differenceInDays;
     console.log(differenceInDays);
 }
