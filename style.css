@@ -1,0 +1,19 @@
+.header {
+    text-align: center;
+    border: 3px solid green;
+}
+
+.buttons {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.text {
+    text-align: center;
+    padding-top: 10px;
+}
+
+#result{
+    text-align: center;
+    padding-top: 10px;
+}
